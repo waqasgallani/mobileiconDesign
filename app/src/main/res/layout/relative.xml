@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic2"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="200px"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/app_store">
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="app store"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/bookmark"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="book mark"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/calculator"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="calculator"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/chrome"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="chrome"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/duolingo_logo"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="duolingo"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200px"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="80dp"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/facebook"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="facebook"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/foodpanda"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="food panda"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/gmail"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="gmail"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/google_docs"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="google-docs"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/google_logo"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="google"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200px"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginLeft="160dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/google_maps_old"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="google map"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/icons8_google_meet"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="google meet"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/icons8_instagram"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="instagram"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/icons8_linkedin_logo"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="linkedin"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/icons8_message"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="message"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="200px"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginLeft="240dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/icons8_messenger"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="messager"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/icons8_octagon_game"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="octagon game"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/icons8_snapchat"></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="snap chat"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/icons8_tiktok"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tiktok"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/icons8_uber"></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="uber"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="200px"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginLeft="320dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/icons8_weather"></ImageView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="wheater"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/icons8_whatsapp"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="whatsapp"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/icons8_youtube"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="youtube"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/icons8_play_store"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="play store"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/icons8_google_duo"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="duo"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            android:gravity="center"></TextView>
+
+    </LinearLayout>
+    <!-- Second Column -->
+
+</RelativeLayout>
